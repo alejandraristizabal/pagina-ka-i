@@ -1,0 +1,301 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ka'i — Copiloto solar para Fonseca</title>
+<meta name="description" content="Ka'i: copiloto energético con IA y datos climáticos abiertos para hogares y PYMEs de Fonseca, La Guajira.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700&amp;family=Source+Sans+3:wght@400;600&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0;background:#09131A}
+*{box-sizing:border-box}
+img,svg{max-width:100%}
+a{color:#2FA38A}a:hover{color:#EAF2F6}
+</style>
+<style>html{scroll-behavior:smooth}</style>
+</head>
+<body>
+<div style="font-family: 'Source Sans 3', 'Source Sans Pro', system-ui, sans-serif; color: #EAF2F6; background: #09131A; line-height: 1.55; font-size: 18px; overflow-x: hidden; overflow-wrap: break-word">
+
+<!-- NAV -->
+<header style="border-bottom: 1px solid #213A49; background: #09131A">
+<nav style="max-width: 1200px; margin: 0 auto; padding: 16px clamp(16px, 4vw, 24px) 16px; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 16px">
+<a href="#inicio" aria-label="Ka'i, inicio" style="display: flex; align-items: center; gap: 12px; text-decoration: none; color: #FFFFFF">
+<svg width="40" height="40" viewBox="8 8 104 104" aria-hidden="true"><path fill="#17A398" fill-rule="evenodd" d="M56 24H64V32H72V40H80V48H88V56H96V64H88V72H80V80H72V88H64V96H56V88H48V80H40V72H32V64H24V56H32V48H40V40H48V32H56Z M56 32H64V40H72V48H80V56H88V64H80V72H72V80H64V88H56V80H48V72H40V64H32V56H40V48H48V40H56Z"></path><path fill="#F9B11A" d="M56 40H64V48H72V56H80V64H72V72H64V80H56V72H48V64H40V56H48V48H56Z"></path><rect x="56" y="56" width="8" height="8" fill="#09131A"></rect><g fill="#F9B11A"><rect x="56" y="8" width="8" height="8"></rect><rect x="56" y="104" width="8" height="8"></rect><rect x="8" y="56" width="8" height="8"></rect><rect x="104" y="56" width="8" height="8"></rect><rect x="24" y="24" width="8" height="8"></rect><rect x="88" y="24" width="8" height="8"></rect><rect x="24" y="88" width="8" height="8"></rect><rect x="88" y="88" width="8" height="8"></rect></g></svg>
+<span style="font-family: Outfit, 'Century Gothic', sans-serif; font-weight: 700; font-size: clamp(24px, 6vw, 30px); line-height: 1; letter-spacing: -0.5px; color: #FFFFFF">Ka<span style="color: #F9B11A">’</span>i</span>
+</a>
+<div style="display: flex; flex-wrap: wrap; gap: 4px 22px; font-size: 16px; font-weight: 600">
+<a href="#problema" style="color: #9AB0BB; text-decoration: none; padding: 10px 0">El problema</a>
+<a href="#solucion" style="color: #9AB0BB; text-decoration: none; padding: 10px 0">La solución</a>
+<a href="#perfiles" style="color: #9AB0BB; text-decoration: none; padding: 10px 0">Perfiles</a>
+<a href="#orquestador" style="color: #9AB0BB; text-decoration: none; padding: 10px 0">Orquestador</a>
+<a href="#tecnologia" style="color: #9AB0BB; text-decoration: none; padding: 10px 0">Tecnología</a>
+</div>
+</nav>
+</header>
+
+<!-- HERO -->
+<section id="inicio" style="background: radial-gradient(circle at top left, rgba(216, 162, 74, 0.16), transparent 34%), radial-gradient(circle at top right, rgba(47, 163, 138, 0.14), transparent 30%), #09131A">
+<div style="max-width: 1200px; margin: 0 auto; padding: clamp(43px, 8vw, 72px) clamp(16px, 4vw, 24px) clamp(43px, 8vw, 72px); display: flex; flex-wrap: wrap; gap: 48px; align-items: center">
+<div style="flex: 1 1 min(520px, 100%); min-width: 0">
+<p style="display: inline-block; margin: 0 0 22px; padding: 7px 14px; border-radius: 999px; background: #30261A; border: 1px solid #5A4116; color: #F0C97A; font-size: 15px; font-weight: 600">Hackathon Regional La Guajira · MinTIC · Colombia 5.0</p>
+<h1 style="font-family: Outfit, sans-serif; font-weight: 700; font-size: clamp(40px, 6vw, 68px); line-height: 1.04; letter-spacing: -1.5px; margin: 0 0 22px; color: #FFFFFF">El sol de Fonseca, trabajando para tu bolsillo.</h1>
+<p style="font-size: clamp(18px, 4.6vw, 21px); color: #9AB0BB; margin: 0 0 32px; max-width: 580px">Ka'i es un copiloto energético con inteligencia artificial y datos climáticos abiertos que ayuda a hogares y PYMEs de Fonseca, La Guajira, a bajar la factura de luz y prepararse ante los apagones.</p>
+<div style="display: flex; flex-wrap: wrap; gap: 14px">
+<a href="#solucion" style="display: inline-flex; align-items: center; min-height: 48px; padding: 0 24px; flex: 1 1 auto; justify-content: center; border-radius: 12px; background: #2FA38A; color: #09131A; font-weight: 700; text-decoration: none">Conoce cómo funciona</a>
+<a href="#tecnologia" style="display: inline-flex; align-items: center; min-height: 48px; padding: 0 24px; flex: 1 1 auto; justify-content: center; border-radius: 12px; border: 1.5px solid #213A49; background: #0F1D27; color: #EAF2F6; font-weight: 600; text-decoration: none">Despliégalo en 5 minutos</a>
+</div>
+</div>
+<div style="flex: 1 1 min(380px, 100%); min-width: 0">
+<div style="background: #0F1D27; border: 1px solid #213A49; border-radius: 22px; padding: clamp(18px, 5vw, 26px); display: flex; flex-direction: column; gap: 16px; box-shadow: 0 18px 40px rgba(0, 0, 0, 0.3)">
+<div style="background: linear-gradient(135deg, #2A9580, #1F7767); border-radius: 18px; padding: 20px; color: #FFFFFF">
+<div style="display: flex; justify-content: space-between; align-items: center; gap: 12px; flex-wrap: wrap">
+<span style="font-family: Outfit, sans-serif; font-weight: 700; font-size: 22px">Mi día</span>
+<span style="padding: 5px 12px; border-radius: 999px; background: rgba(9, 19, 26, 0.35); font-size: 14px; font-weight: 600">Fonseca · riesgo de apagón bajo</span>
+</div>
+<p style="margin: 10px 0 0; font-size: 16px">Buen día de sol: tus paneles pueden cubrir los consumos fuertes de la mañana.</p>
+</div>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(96px, 100%), 1fr)); gap: 10px">
+<div style="background: #132632; border: 1px solid #213A49; border-radius: 14px; padding: 14px"><div style="font-size: 13px; color: #9AB0BB">Semáforo</div><div style="display: flex; gap: 6px; margin-top: 9px"><span style="width: 14px; height: 14px; border-radius: 50%; background: #39B982"></span><span style="width: 14px; height: 14px; border-radius: 50%; background: #213A49"></span><span style="width: 14px; height: 14px; border-radius: 50%; background: #213A49"></span></div></div>
+<div style="background: #132632; border: 1px solid #213A49; border-radius: 14px; padding: 14px"><div style="font-size: 13px; color: #9AB0BB">Batería</div><div style="font-family: Outfit, sans-serif; font-size: 22px; font-weight: 600; margin-top: 2px">[ % ]</div></div>
+<div style="background: #132632; border: 1px solid #213A49; border-radius: 14px; padding: 14px"><div style="font-size: 13px; color: #9AB0BB">Modo</div><div style="font-size: 15px; font-weight: 600; margin-top: 6px; color: #D8A24A">Optimización OpEx</div></div>
+</div>
+<div style="background: #132632; border: 1px solid #213A49; border-radius: 16px; padding: 16px; display: flex; gap: 14px; align-items: flex-start">
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#2FA38A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex: none"><path d="M12 3l1.9 4.8L19 10l-5.1 2.2L12 17l-1.9-4.8L5 10l5.1-2.2L12 3z"></path></svg>
+<div><div style="font-size: 13px; font-weight: 600; color: #2FA38A; text-transform: uppercase; letter-spacing: .6px">Consejo de Ka'i · ejemplo</div><div style="margin-top: 4px; font-size: 16px">Deja la lavadora para las horas de mayor radiación y aprovecha tus paneles en vez de la red de Air-E.</div></div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<!-- CIFRAS -->
+<section style="background: #0F1D27; border-top: 1px solid #213A49; border-bottom: 1px solid #213A49">
+<div style="max-width: 1200px; margin: 0 auto; padding: clamp(26px, 8vw, 44px) clamp(16px, 4vw, 24px) clamp(26px, 8vw, 44px); display: grid; grid-template-columns: repeat(auto-fit, minmax(min(220px, 100%), 1fr)); gap: 28px">
+<div><div style="font-family: Outfit, sans-serif; font-size: clamp(34px, 8vw, 44px); font-weight: 700; letter-spacing: -1px; color: #D8A24A">7,0 <span style="font-size: 20px">kWh/m²/día</span></div><div style="color: #9AB0BB">Radiación solar en La Guajira, casi el doble que en países líderes en transición energética</div></div>
+<div><div style="font-family: Outfit, sans-serif; font-size: clamp(34px, 8vw, 44px); font-weight: 700; letter-spacing: -1px; color: #D8A24A">$943 <span style="font-size: 20px">COP/kWh</span></div><div style="color: #9AB0BB">Tarifa eléctrica de Air-E que pagan hogares y comercios</div></div>
+<div><div style="font-family: Outfit, sans-serif; font-size: clamp(34px, 8vw, 44px); font-weight: 700; letter-spacing: -1px; color: #D8A24A">+60 <span style="font-size: 20px">horas/año</span></div><div style="color: #9AB0BB">De cortes y apagones en promedio en la región</div></div>
+<div><div style="font-family: Outfit, sans-serif; font-size: clamp(34px, 8vw, 44px); font-weight: 700; letter-spacing: -1px; color: #D8A24A">33%</div><div style="color: #9AB0BB">Del gasto operativo de una PYME local puede irse en energía</div></div>
+</div>
+</section>
+
+<!-- PROBLEMA -->
+<section id="problema" style="max-width: 1200px; margin: 0 auto; padding: clamp(53px, 8vw, 88px) clamp(16px, 4vw, 24px) clamp(24px, 8vw, 40px)">
+<p style="margin: 0 0 10px; color: #2FA38A; font-weight: 600; text-transform: uppercase; letter-spacing: 1px; font-size: 15px">El problema</p>
+<h2 style="font-family: Outfit, sans-serif; font-size: clamp(32px, 4vw, 46px); line-height: 1.1; letter-spacing: -1px; margin: 0 0 16px; max-width: 760px; color: #FFFFFF">La paradoja energética: mucho sol y una de las luces más caras del país.</h2>
+<p style="color: #9AB0BB; max-width: 720px; margin: 0 0 40px">Fonseca tiene el recurso solar a la mano, pero sus habitantes viven con tarifas asfixiantes, una red inestable y sin herramientas honestas para decidir si invertir en paneles.</p>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(280px, 100%), 1fr)); gap: 20px">
+<div style="background: #0F1D27; border: 1px solid #213A49; border-radius: 20px; padding: clamp(20px, 5vw, 28px)">
+<svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#D46A60" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 7h16v10H4zM8 12h8M8 9h.01M16 15h.01"></path></svg>
+<h3 style="font-family: Outfit, sans-serif; font-size: 22px; margin: 14px 0 8px; color: #FFFFFF">Asfixia tarifaria</h3>
+<p style="margin: 0; color: #9AB0BB">Facturas de Air-E cercanas a $943 por kWh, que pueden representar hasta un tercio del gasto operativo de micro y pequeñas empresas.</p>
+</div>
+<div style="background: #0F1D27; border: 1px solid #213A49; border-radius: 20px; padding: clamp(20px, 5vw, 28px)">
+<svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#D46A60" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M13 2L4 14h7l-1 8 9-12h-7z"></path><path d="M3 3l18 18"></path></svg>
+<h3 style="font-family: Outfit, sans-serif; font-size: 22px; margin: 14px 0 8px; color: #FFFFFF">Red inestable</h3>
+<p style="margin: 0; color: #9AB0BB">Más de 60 horas de apagones al año y pérdidas regionales superiores a $18.700 millones de pesos anuales.</p>
+</div>
+<div style="background: #0F1D27; border: 1px solid #213A49; border-radius: 20px; padding: clamp(20px, 5vw, 28px)">
+<svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#D46A60" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="7"></circle><path d="M21 21l-4.3-4.3"></path><path d="M11 8v3"></path><path d="M11 14h.01"></path></svg>
+<h3 style="font-family: Outfit, sans-serif; font-size: 22px; margin: 14px 0 8px; color: #FFFFFF">Sin herramientas claras</h3>
+<p style="margin: 0; color: #9AB0BB">No existían plataformas que calcularan con realismo el retorno de un sistema solar ni que gestionaran las baterías de forma autónoma.</p>
+</div>
+</div>
+</section>
+
+<!-- SOLUCION -->
+<section id="solucion" style="max-width: 1200px; margin: 0 auto; padding: clamp(38px, 8vw, 64px) clamp(16px, 4vw, 24px) clamp(53px, 8vw, 88px)">
+<p style="margin: 0 0 10px; color: #2FA38A; font-weight: 600; text-transform: uppercase; letter-spacing: 1px; font-size: 15px">La solución</p>
+<h2 style="font-family: Outfit, sans-serif; font-size: clamp(32px, 4vw, 46px); line-height: 1.1; letter-spacing: -1px; margin: 0 0 16px; max-width: 760px; color: #FFFFFF">Cuatro pilares fundamentales para utilizar la energía eléctrica.</h2>
+<p style="color: #9AB0BB; max-width: 720px; margin: 0 0 40px">Ka'i traduce métricas de ingeniería en decisiones financieras y hábitos sencillos que cualquier persona puede aplicar.</p>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(250px, 100%), 1fr)); gap: 20px">
+<div style="background: #132632; border: 1px solid #213A49; border-radius: 20px; padding: clamp(20px, 5vw, 28px)">
+<div style="font-family: Outfit, sans-serif; font-size: 16px; font-weight: 700; color: #D8A24A">01</div>
+<h3 style="font-family: Outfit, sans-serif; font-size: 21px; margin: 10px 0 8px; color: #FFFFFF">Mitigación directa de tarifas</h3>
+<p style="margin: 0; color: #9AB0BB">Proyecciones transparentes a partir del recibo real de Air-E del usuario, sin estimaciones ficticias por estrato.</p>
+</div>
+<div style="background: #132632; border: 1px solid #213A49; border-radius: 20px; padding: clamp(20px, 5vw, 28px)">
+<div style="font-family: Outfit, sans-serif; font-size: 16px; font-weight: 700; color: #D8A24A">02</div>
+<h3 style="font-family: Outfit, sans-serif; font-size: 21px; margin: 10px 0 8px; color: #FFFFFF">Resiliencia ante apagones</h3>
+<p style="margin: 0; color: #9AB0BB">Predicción del riesgo de corte eléctrico con base en el historial y las condiciones de la red regional.</p>
+</div>
+<div style="background: #132632; border: 1px solid #213A49; border-radius: 20px; padding: clamp(20px, 5vw, 28px)">
+<div style="font-family: Outfit, sans-serif; font-size: 16px; font-weight: 700; color: #D8A24A">03</div>
+<h3 style="font-family: Outfit, sans-serif; font-size: 21px; margin: 10px 0 8px; color: #FFFFFF">Orquestación autónoma de baterías</h3>
+<p style="margin: 0; color: #9AB0BB">Un algoritmo decide cuándo cargar, cuándo ciclar y cuánta reserva guardar para la noche.</p>
+</div>
+<div style="background: #132632; border: 1px solid #213A49; border-radius: 20px; padding: clamp(20px, 5vw, 28px)">
+<div style="font-family: Outfit, sans-serif; font-size: 16px; font-weight: 700; color: #D8A24A">04</div>
+<h3 style="font-family: Outfit, sans-serif; font-size: 21px; margin: 10px 0 8px; color: #FFFFFF">Empoderamiento comunitario</h3>
+<p style="margin: 0; color: #9AB0BB">Vocabulario, métricas y consejos que se adaptan a quien inicia sesión: un hogar o una empresa.</p>
+</div>
+</div>
+</section>
+
+<!-- PERFILES -->
+<section id="perfiles" style="background: #0F1D27; border-top: 1px solid #213A49; border-bottom: 1px solid #213A49">
+<div style="max-width: 1200px; margin: 0 auto; padding: clamp(53px, 8vw, 88px) clamp(16px, 4vw, 24px) clamp(53px, 8vw, 88px)">
+<p style="margin: 0 0 10px; color: #2FA38A; font-weight: 600; text-transform: uppercase; letter-spacing: 1px; font-size: 15px">Bifurcación adaptativa</p>
+<h2 style="font-family: Outfit, sans-serif; font-size: clamp(32px, 4vw, 46px); line-height: 1.1; letter-spacing: -1px; margin: 0 0 40px; max-width: 760px; color: #FFFFFF">Una plataforma, dos maneras de hablar.</h2>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(320px, 100%), 1fr)); gap: 24px">
+<div style="border: 1px solid #213A49; border-radius: 22px; padding: clamp(22px, 5vw, 32px); background: #09131A">
+<div style="display: flex; align-items: center; gap: 12px"><svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#2FA38A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 11l9-7 9 7v9a1 1 0 01-1 1h-5v-6H9v6H4a1 1 0 01-1-1v-9z"></path></svg><h3 style="font-family: Outfit, sans-serif; font-size: 26px; margin: 0; color: #FFFFFF">Hogar</h3></div>
+<p style="color: #9AB0BB; margin: 14px 0 20px">Lenguaje cálido, cercano y sin tecnicismos.</p>
+<ul style="margin: 0; padding-left: 20px; display: flex; flex-direction: column; gap: 10px">
+<li>Semáforos verde, amarillo y rojo para entender el estado de un vistazo.</li>
+<li>Recordatorios del recibo y ahorro acumulado del presupuesto familiar.</li>
+<li>Simulador de un sistema de 2,5 kWp para techos residenciales.</li>
+<li>Consejos de hábitos: lavar en horas de sol, apagar luces, programar el aire.</li>
+</ul>
+</div>
+<div style="border: 1px solid #5A4116; border-radius: 22px; padding: clamp(22px, 5vw, 32px); background: #30261A">
+<div style="display: flex; align-items: center; gap: 12px"><svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#D8A24A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 21V5a1 1 0 011-1h9a1 1 0 011 1v16m0-11h4a1 1 0 011 1v10M3 21h18M8 8h3m-3 4h3m-3 4h3"></path></svg><h3 style="font-family: Outfit, sans-serif; font-size: 26px; margin: 0; color: #FFFFFF">PYME / Empresa</h3></div>
+<p style="color: #D9C7A6; margin: 14px 0 20px">Enfoque analítico, corporativo y financiero.</p>
+<ul style="margin: 0; padding-left: 20px; display: flex; flex-direction: column; gap: 10px">
+<li>Telemetría del inversor y gasto operativo proyectado.</li>
+<li>Retorno de inversión a 5 y 10 años.</li>
+<li>Control de picos de demanda (kW) cobrados en la factura.</li>
+<li>Dimensionamiento desde 10 kWp con bancos de baterías comerciales.</li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+
+<!-- ORQUESTADOR -->
+<section id="orquestador" style="max-width: 1200px; margin: 0 auto; padding: clamp(53px, 8vw, 88px) clamp(16px, 4vw, 24px) clamp(53px, 8vw, 88px)">
+<p style="margin: 0 0 10px; color: #2FA38A; font-weight: 600; text-transform: uppercase; letter-spacing: 1px; font-size: 15px">Orquestador autónomo ante apagones</p>
+<h2 style="font-family: Outfit, sans-serif; font-size: clamp(32px, 4vw, 46px); line-height: 1.1; letter-spacing: -1px; margin: 0 0 16px; max-width: 760px; color: #FFFFFF">Tus baterías cambian de estrategia según el riesgo de corte.</h2>
+<p style="color: #9AB0BB; max-width: 720px; margin: 0 0 40px">Ka'i conecta la predicción de apagones con tu instalación solar y decide solo cómo usar la energía almacenada. Siempre conserva una reserva mínima del 30 al 40%.</p>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(280px, 100%), 1fr)); gap: 20px">
+<div style="border-radius: 20px; padding: clamp(20px, 5vw, 28px); background: #0F1D27; border: 1px solid #154C3A; border-top: 6px solid #39B982">
+<p style="margin: 0; font-weight: 600; color: #39B982">Riesgo bajo · menos de 20%</p>
+<h3 style="font-family: Outfit, sans-serif; font-size: 23px; margin: 8px 0 10px; color: #FFFFFF">Optimización OpEx</h3>
+<p style="margin: 0; color: #9AB0BB">Cicla las baterías libremente para aplanar los picos nocturnos y recortar al mínimo lo que se compra a la red.</p>
+</div>
+<div style="border-radius: 20px; padding: clamp(20px, 5vw, 28px); background: #0F1D27; border: 1px solid #5A4116; border-top: 6px solid #D9A441">
+<p style="margin: 0; font-weight: 600; color: #D9A441">Riesgo medio · 20 a 39%</p>
+<h3 style="font-family: Outfit, sans-serif; font-size: 23px; margin: 8px 0 10px; color: #FFFFFF">Respaldo proactivo</h3>
+<p style="margin: 0; color: #9AB0BB">Sube el colchón de seguridad al 60% y usa solo el 40% superior para reducir la demanda en horas caras.</p>
+</div>
+<div style="border-radius: 20px; padding: clamp(20px, 5vw, 28px); background: #0F1D27; border: 1px solid #5A231F; border-top: 6px solid #D46A60">
+<p style="margin: 0; font-weight: 600; color: #E08A81">Riesgo crítico · 40% o más</p>
+<h3 style="font-family: Outfit, sans-serif; font-size: 23px; margin: 8px 0 10px; color: #FFFFFF">Carga máxima preventiva</h3>
+<p style="margin: 0; color: #9AB0BB">Bloquea la descarga y envía el 100% de los excedentes solares a llenar las baterías para tener la noche cubierta.</p>
+</div>
+</div>
+<p style="margin: 28px 0 0; color: #9AB0BB">En la vista de Predicciones, un simulador permite mover el riesgo de corte y ver en tiempo real cómo cambian el modo, el objetivo de carga, el flujo fotovoltaico y las horas de autonomía.</p>
+</section>
+
+<!-- IA + ALERTAS -->
+<section style="background: #0F1D27; border-top: 1px solid #213A49; border-bottom: 1px solid #213A49">
+<div style="max-width: 1200px; margin: 0 auto; padding: clamp(53px, 8vw, 88px) clamp(16px, 4vw, 24px) clamp(53px, 8vw, 88px); display: flex; flex-wrap: wrap; gap: 48px">
+<div style="flex: 1 1 min(440px, 100%); min-width: 0">
+<p style="margin: 0 0 10px; color: #D8A24A; font-weight: 600; text-transform: uppercase; letter-spacing: 1px; font-size: 15px">IA que no se apaga</p>
+<h2 style="font-family: Outfit, sans-serif; font-size: clamp(30px, 3.6vw, 42px); line-height: 1.12; letter-spacing: -1px; margin: 0 0 18px; color: #FFFFFF">Capa dual de recomendaciones.</h2>
+<p style="color: #9AB0BB; margin: 0 0 28px">En La Guajira la conexión también se cae. Por eso Ka'i nunca deja al usuario sin respuesta.</p>
+<div style="display: flex; flex-direction: column; gap: 16px">
+<div style="background: #132632; border: 1px solid #213A49; border-radius: 18px; padding: 22px">
+<h3 style="font-family: Outfit, sans-serif; font-size: 19px; margin: 0 0 6px; color: #FFFFFF">Capa principal · Gemini 3.5 Flash Lite</h3>
+<p style="margin: 0; color: #9AB0BB">Consultas asíncronas y no bloqueantes que generan consejos personalizados en tiempo real.</p>
+</div>
+<div style="background: #132632; border: 1px solid #213A49; border-radius: 18px; padding: 22px">
+<h3 style="font-family: Outfit, sans-serif; font-size: 19px; margin: 0 0 6px; color: #FFFFFF">Capa de contingencia · motor heurístico local</h3>
+<p style="margin: 0; color: #9AB0BB">Si falla el internet, la latencia es extrema o se agota la cuota, un motor de reglas redacta la recomendación con los datos reales del usuario.</p>
+</div>
+<div style="background: #132632; border: 1px solid #213A49; border-radius: 18px; padding: 22px">
+<h3 style="font-family: Outfit, sans-serif; font-size: 19px; margin: 0 0 6px; color: #FFFFFF">Asistente conversacional por rol</h3>
+<p style="margin: 0; color: #9AB0BB">Ka'i responde desde un botón flotante y solo recomienda las pantallas que cada rol (administrador, empresa, analista) tiene en su menú.</p>
+</div>
+</div>
+</div>
+<div style="flex: 1 1 min(440px, 100%); min-width: 0">
+<p style="margin: 0 0 10px; color: #D8A24A; font-weight: 600; text-transform: uppercase; letter-spacing: 1px; font-size: 15px">Alertas proactivas</p>
+<h2 style="font-family: Outfit, sans-serif; font-size: clamp(30px, 3.6vw, 42px); line-height: 1.12; letter-spacing: -1px; margin: 0 0 18px; color: #FFFFFF">Pensadas para el clima de Fonseca.</h2>
+<p style="color: #9AB0BB; margin: 0 0 28px">Conectadas a las APIs climáticas y al consumo del usuario.</p>
+<div style="display: flex; flex-direction: column; gap: 2px; border-radius: 18px; overflow: hidden; border: 1px solid #213A49">
+<div style="background: #132632; padding: 18px 22px"><strong style="color: #D8A24A">Polvo del desierto</strong><div style="color: #9AB0BB">Si el PM10 supera 80 µg/m³, avisa que es momento de limpiar los paneles: la arena puede restar hasta 15% de rendimiento.</div></div>
+<div style="background: #132632; padding: 18px 22px"><strong style="color: #D8A24A">Consumo inusual</strong><div style="color: #9AB0BB">Umbral dinámico: promedio de 30 días más dos desviaciones estándar.</div></div>
+<div style="background: #132632; padding: 18px 22px"><strong style="color: #D8A24A">Lluvia o poco sol mañana</strong><div style="color: #9AB0BB">Con más de 10 mm de lluvia o menos de 3,0 kWh/m², sube la alerta de batería al 40%.</div></div>
+<div style="background: #132632; padding: 18px 22px"><strong style="color: #D8A24A">Picos de demanda</strong><div style="color: #9AB0BB">Advierte cuando la potencia supera en 50% la media histórica.</div></div>
+<div style="background: #132632; padding: 18px 22px"><strong style="color: #D8A24A">Riesgo climático de red</strong><div style="color: #9AB0BB">Vientos de más de 40 km/h o tormentas, con consejo según tengas o no baterías.</div></div>
+</div>
+</div>
+</div>
+</section>
+
+<!-- DATOS ABIERTOS -->
+<section style="max-width: 1200px; margin: 0 auto; padding: clamp(53px, 8vw, 88px) clamp(16px, 4vw, 24px) clamp(24px, 8vw, 40px)">
+<p style="margin: 0 0 10px; color: #2FA38A; font-weight: 600; text-transform: uppercase; letter-spacing: 1px; font-size: 15px">Datos abiertos y transparentes</p>
+<h2 style="font-family: Outfit, sans-serif; font-size: clamp(32px, 4vw, 46px); line-height: 1.1; letter-spacing: -1px; margin: 0 0 16px; max-width: 760px; color: #FFFFFF">Cálculos con radiación real, nunca inventada.</h2>
+<p style="color: #9AB0BB; max-width: 720px; margin: 0 0 36px">La producción solar se estima con la radiación medida en Fonseca, la potencia instalada y el rendimiento del sistema. Si no hay datos de radiación, Ka'i no inventa producción. Al arrancar, la plataforma precarga datos climáticos para que todo usuario vea información real desde el primer segundo.</p>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(220px, 100%), 1fr)); gap: 16px">
+<div style="background: #0F1D27; border: 1px solid #213A49; border-radius: 18px; padding: 22px"><h3 style="font-family: Outfit, sans-serif; font-size: 19px; margin: 0 0 6px; color: #FFFFFF">Open-Meteo</h3><p style="margin: 0; color: #9AB0BB; font-size: 16px">Radiación de los últimos 30 días, pronóstico de 24 a 72 h y partículas PM10.</p></div>
+<div style="background: #0F1D27; border: 1px solid #213A49; border-radius: 18px; padding: 22px"><h3 style="font-family: Outfit, sans-serif; font-size: 19px; margin: 0 0 6px; color: #FFFFFF">NASA POWER</h3><p style="margin: 0; color: #9AB0BB; font-size: 16px">Respaldo histórico cuando la fuente principal no responde.</p></div>
+<div style="background: #0F1D27; border: 1px solid #213A49; border-radius: 18px; padding: 22px"><h3 style="font-family: Outfit, sans-serif; font-size: 19px; margin: 0 0 6px; color: #FFFFFF">PVGIS</h3><p style="margin: 0; color: #9AB0BB; font-size: 16px">Año meteorológico típico como línea base climatológica.</p></div>
+<div style="background: #0F1D27; border: 1px solid #213A49; border-radius: 18px; padding: 22px"><h3 style="font-family: Outfit, sans-serif; font-size: 19px; margin: 0 0 6px; color: #FFFFFF">OpenWeather</h3><p style="margin: 0; color: #9AB0BB; font-size: 16px">Calidad del aire y validación cruzada del pronóstico.</p></div>
+</div>
+</section>
+
+<!-- VISTAS -->
+<section style="max-width: 1200px; margin: 0 auto; padding: clamp(34px, 8vw, 56px) clamp(16px, 4vw, 24px) clamp(53px, 8vw, 88px)">
+<p style="margin: 0 0 10px; color: #2FA38A; font-weight: 600; text-transform: uppercase; letter-spacing: 1px; font-size: 15px">La plataforma</p>
+<h2 style="font-family: Outfit, sans-serif; font-size: clamp(32px, 4vw, 46px); line-height: 1.1; letter-spacing: -1px; margin: 0 0 36px; max-width: 760px; color: #FFFFFF">Todo lo que necesitas, en un solo lugar.</h2>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(250px, 100%), 1fr)); gap: 14px">
+<div style="padding: 20px; border-radius: 16px; background: #132632; border: 1px solid #213A49"><strong style="color: #FFFFFF">Mi día</strong><div style="color: #9AB0BB; font-size: 16px">Resumen diario con lo más importante.</div></div>
+<div style="padding: 20px; border-radius: 16px; background: #132632; border: 1px solid #213A49"><strong style="color: #FFFFFF">Mis aparatos</strong><div style="color: #9AB0BB; font-size: 16px">Inventario de electrodomésticos y consumo desglosado.</div></div>
+<div style="padding: 20px; border-radius: 16px; background: #132632; border: 1px solid #213A49"><strong style="color: #FFFFFF">Dashboard</strong><div style="color: #9AB0BB; font-size: 16px">Telemetría y gráficos interactivos de consumo.</div></div>
+<div style="padding: 20px; border-radius: 16px; background: #132632; border: 1px solid #213A49"><strong style="color: #FFFFFF">Consumo</strong><div style="color: #9AB0BB; font-size: 16px">Registro, consulta e importación de consumos y costos.</div></div>
+<div style="padding: 20px; border-radius: 16px; background: #132632; border: 1px solid #213A49"><strong style="color: #FFFFFF">Datos solares</strong><div style="color: #9AB0BB; font-size: 16px">Historial de radiación local e integración climática.</div></div>
+<div style="padding: 20px; border-radius: 16px; background: #132632; border: 1px solid #213A49"><strong style="color: #FFFFFF">Recomendaciones IA</strong><div style="color: #9AB0BB; font-size: 16px">Acciones de ahorro adaptadas a tu perfil.</div></div>
+<div style="padding: 20px; border-radius: 16px; background: #132632; border: 1px solid #213A49"><strong style="color: #FFFFFF">Alertas</strong><div style="color: #9AB0BB; font-size: 16px">Avisos críticos del sistema y del clima municipal.</div></div>
+<div style="padding: 20px; border-radius: 16px; background: #132632; border: 1px solid #213A49"><strong style="color: #FFFFFF">Predicciones</strong><div style="color: #9AB0BB; font-size: 16px">Panel predictivo y simulador del orquestador.</div></div>
+<div style="padding: 20px; border-radius: 16px; background: #132632; border: 1px solid #213A49"><strong style="color: #FFFFFF">Reportes</strong><div style="color: #9AB0BB; font-size: 16px">Informes ejecutivos descargables en PDF y Excel.</div></div>
+<div style="padding: 20px; border-radius: 16px; background: #132632; border: 1px solid #213A49"><strong style="color: #FFFFFF">Administración</strong><div style="color: #9AB0BB; font-size: 16px">Usuarios, carga masiva y configuración.</div></div>
+</div>
+</section>
+
+<!-- TECNOLOGIA -->
+<section id="tecnologia" style="background: #0F1D27; border-top: 1px solid #213A49; border-bottom: 1px solid #213A49">
+<div style="max-width: 1200px; margin: 0 auto; padding: clamp(53px, 8vw, 88px) clamp(16px, 4vw, 24px) clamp(53px, 8vw, 88px); display: flex; flex-wrap: wrap; gap: 48px; align-items: flex-start">
+<div style="flex: 1 1 min(440px, 100%); min-width: 0">
+<p style="margin: 0 0 10px; color: #2FA38A; font-weight: 600; text-transform: uppercase; letter-spacing: 1px; font-size: 15px">Tecnología</p>
+<h2 style="font-family: Outfit, sans-serif; font-size: clamp(32px, 4vw, 46px); line-height: 1.1; letter-spacing: -1px; margin: 0 0 16px; color: #FFFFFF">No es un mockup: es software real y reproducible.</h2>
+<p style="color: #9AB0BB; margin: 0 0 24px">Arquitectura modular y contenerizada con cinco agentes especializados: solar, consumo, predicción, alertas y recomendaciones.</p>
+<div style="display: flex; flex-wrap: wrap; gap: 10px">
+<span style="padding: 8px 14px; border-radius: 999px; border: 1px solid #213A49; background: #132632; font-size: 16px; font-weight: 600">FastAPI · Python</span>
+<span style="padding: 8px 14px; border-radius: 999px; border: 1px solid #213A49; background: #132632; font-size: 16px; font-weight: 600">Streamlit</span>
+<span style="padding: 8px 14px; border-radius: 999px; border: 1px solid #213A49; background: #132632; font-size: 16px; font-weight: 600">MySQL 8 · SQLAlchemy</span>
+<span style="padding: 8px 14px; border-radius: 999px; border: 1px solid #213A49; background: #132632; font-size: 16px; font-weight: 600">Google Gemini</span>
+<span style="padding: 8px 14px; border-radius: 999px; border: 1px solid #213A49; background: #132632; font-size: 16px; font-weight: 600">Docker Compose</span>
+<span style="padding: 8px 14px; border-radius: 999px; border: 1px solid #213A49; background: #132632; font-size: 16px; font-weight: 600">Plotly</span>
+<span style="padding: 8px 14px; border-radius: 999px; border: 1px solid #213A49; background: #132632; font-size: 16px; font-weight: 600">Pruebas con pytest</span>
+<span style="padding: 8px 14px; border-radius: 999px; border: 1px solid #213A49; background: #132632; font-size: 16px; font-weight: 600">Autenticación JWT por roles</span>
+</div>
+</div>
+<div style="flex: 1 1 min(440px, 100%); min-width: 0">
+<div style="background: #09131A; border: 1px solid #213A49; border-radius: 22px; padding: clamp(20px, 5vw, 28px)">
+<p style="margin: 0 0 18px; font-family: Outfit, sans-serif; font-size: 21px; font-weight: 600; color: #FFFFFF">Despliegue en menos de 5 minutos</p>
+<div style="display: flex; flex-direction: column; gap: 14px; font-size: 16px">
+<div><div style="color: #9AB0BB">1 · Configura el entorno</div><code style="display: block; margin-top: 6px; padding: 12px 14px; background: #132632; border: 1px solid #213A49; border-radius: 10px; font-family: ui-monospace, Menlo, Consolas, monospace; font-size: 15px; color: #2FA38A; overflow-x: auto">cp .env.example .env</code></div>
+<div><div style="color: #9AB0BB">2 · Levanta el stack</div><code style="display: block; margin-top: 6px; padding: 12px 14px; background: #132632; border: 1px solid #213A49; border-radius: 10px; font-family: ui-monospace, Menlo, Consolas, monospace; font-size: 15px; color: #2FA38A; overflow-x: auto">docker compose up --build -d</code></div>
+<div><div style="color: #9AB0BB">3 · Carga los datos de demostración</div><code style="display: block; margin-top: 6px; padding: 12px 14px; background: #132632; border: 1px solid #213A49; border-radius: 10px; font-family: ui-monospace, Menlo, Consolas, monospace; font-size: 15px; color: #2FA38A; overflow-x: auto">docker compose exec api python scripts/seed.py</code></div>
+</div>
+<p style="margin: 18px 0 0; color: #9AB0BB; font-size: 15px">Sin clave de Gemini también funciona: el motor heurístico local toma el control automáticamente.</p>
+</div>
+</div>
+</div>
+</section>
+
+<!-- FOOTER -->
+<footer style="border-top: 1px solid #213A49">
+<div style="max-width: 1200px; margin: 0 auto; padding: 28px clamp(16px, 4vw, 24px) 28px; display: flex; flex-wrap: wrap; gap: 12px; justify-content: space-between; align-items: center; color: #9AB0BB; font-size: 15px">
+<span style="display: flex; align-items: center; gap: 10px"><span style="font-family: Outfit, sans-serif; font-weight: 700; font-size: 20px; color: #FFFFFF">Ka<span style="color: #F9B11A">’</span>i</span> · Copiloto solar · Fonseca, La Guajira, Colombia</span>
+<span>© 2026 Code Masters · Licencia MIT</span>
+</div>
+</footer>
+
+</div>
+</body>
+</html>
